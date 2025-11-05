@@ -9,12 +9,11 @@
     -subj "/C=KR/ST=Seoul/L=Seoul/O=MyCompany/CN=localhost"
 
 (또는 sudo certbot certonly --standalone -d your-domain.com)
-
-## 4. nginx.conf 작성
+## 4. nginx.conf 수정이 필요하면 수정
 
 # 실행
 ## 1. 프로젝트 구조 확인
-jenkins-docker/
+jenkins-docker
 ├── docker-compose.yml
 ├── nginx.conf
 └── ssl/  (HTTPS 사용 시)
