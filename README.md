@@ -12,16 +12,7 @@
 ## 4. nginx.conf 수정이 필요하면 수정
 
 # 실행
-## 1. 프로젝트 구조 확인
-    
-jenkins-docker  
-├── docker-compose.yml  
-├── nginx.conf  
-└── ssl/  (HTTPS 사용 시)  
-    ├── cert.pem    
-    └── key.pem    
-
-## 2. Jenkins 시작
+## 1. Jenkins 시작
 docker-compose up -d
 
 ## 3. 로그 확인
