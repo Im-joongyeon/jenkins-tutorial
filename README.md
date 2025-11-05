@@ -13,12 +13,13 @@
 
 # 실행
 ## 1. 프로젝트 구조 확인
+    
 jenkins-docker  
 ├── docker-compose.yml  
 ├── nginx.conf  
 └── ssl/  (HTTPS 사용 시)  
-    ├── cert.pem  
-    └── key.pem  
+    ├── cert.pem    
+    └── key.pem    
 
 ## 2. Jenkins 시작
 docker-compose up -d
